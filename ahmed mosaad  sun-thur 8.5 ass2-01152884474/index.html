@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mealify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <input type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Mealify</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#chefs" class="nav-link">Chefs</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <label for="dark-mode-toggle" class="dark-mode-label">🌙</label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Enjoy Your Healthy<br>Delicious Food</h1>
+                <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Book a Table</a>
+                    <a href="#" class="btn btn-secondary">
+                        <span class="play-icon">▶</span>
+                        Watch a Video
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-img.png" alt="Delicious Food">
+            </div>
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section id="chefs" class="chefs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">CHEFS</span>
+                <h2>Our <span class="highlight">Professional</span> Chefs</h2>
+            </div>
+            <div class="chefs-grid">
+                <div class="chef-card">
+                    <div class="chef-image">
+                        <img src="images/chefs-1.jpg" alt="Walter White">
+                    </div>
+                    <div class="chef-info">
+                        <h3>Walter White</h3>
+                        <span class="chef-role">Master Chef</span>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                    </div>
+                </div>
+                <div class="chef-card">
+                    <div class="chef-image">
+                        <img src="imAGES/chefs-2.jpg" alt="Sarah Jhonson">
+                    </div>
+                    <div class="chef-info">
+                        <h3>Sarah Jhonson</h3>
+                        <span class="chef-role">Patissier</span>
+                        <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                    </div>
+                </div>
+                <div class="chef-card">
+                    <div class="chef-image">
+                        <img src="IMAGES/chefs-3.jpg" alt="William Anderson">
+                    </div>
+                    <div class="chef-info">
+                        <h3>William Anderson</h3>
+                        <span class="chef-role">Cook</span>
+                        <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">gallery</span>
+                <h2>Check <span class="highlight">Our Gallery</span></h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/meal-1.jpg" alt="Hawaiian pizza">
+                    <div class="gallery-overlay">
+                        <h3>Pizza</h3>
+                        <p>Hawaiian pizza with ham and pineapple</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/meal-2.jpg" alt="Levitation pizza">
+                    <div class="gallery-overlay">
+                        <h3>Levitation pizza</h3>
+                        <p>Levitation pizza on black background.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/meal-3.jpg" alt="Beef steaks">
+                    <div class="gallery-overlay">
+                        <h3>Beef steaks</h3>
+                        <p>Tasty beef steaks flying above cast iron grate with fire flames.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/meal-4.jpg" alt="Frittata">
+                    <div class="gallery-overlay">
+                        <h3>Frittata</h3>
+                        <p>Frittata or potato pie in a ceramic plate</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/meal-5.jpg" alt="Burger">
+                    <div class="gallery-overlay">
+                        <h3>Burger</h3>
+                        <p>grass fed bison hamburger with chips & beer</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/meal-6.jpg" alt="Crispy Fried Chicken">
+                    <div class="gallery-overlay">
+                        <h3>Crispy Fried Chicken</h3>
+                        <p>Golden brown chicken legs with a crunchy coating and juicy meat</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/meal-7.jpg" alt="Lyulya kebab">
+                    <div class="gallery-overlay">
+                        <h3>Lyulya kebab</h3>
+                        <p>Tender and juicy skewers of ground lamb or beef, flavored with aromatic spices and herbs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">CONTACT</span>
+                <h2>Need Help ? <span class="highlight">Contact Us</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Our Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:contact@example.com">contact@example.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Call Us</h3>
+                        <p><a href="tel:+15589555488">+1 5589 55488 55</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Opening Hours</h3>
+                        <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday</strong> : Closed</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Google Maps -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3!2d-74.0059413!3d40.7127753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316e30d5c7%3A0x2a5b3c8b8c8b8c8b!2sA108%20Adam%20St%2C%20New%20York%2C%20NY%2010038%2C%20USA!5e0!3m2!1sen!2sus!4v1625097600000!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="350" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">🍽️</div>
+                        <h3>Mealify.</h3>
+                    </div>
+                    <p>Mealify is a restaurant landing page that offers a delicious dining experience to its customers.</p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-section">
+                    <h4>Social Media</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link twitter">🐦</a>
+                        <a href="#" class="social-link facebook">📘</a>
+                        <a href="#" class="social-link instagram">📷</a>
+                        <a href="#" class="social-link linkedin">💼</a>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-section newsletter">
+                    <h4>Subscribe our Newsletter</h4>
+                    <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Mealify!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter Your Email Address" required>
+                        <button type="submit" class="btn btn-primary">📧 Subscribe</button>
+                    </form>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <div class="links-column">
+                            <a href="#"><i>&gt;</i> Menu</a>
+                            <a href="#"><i>&gt;</i> About Us</a>
+                            <a href="#"><i>&gt;</i> Testimonial</a>
+                        </div>
+                        <div class="links-column">
+                            <a href="#"><i>&gt;</i> Promo</a>
+                            <a href="#"><i>&gt;</i> Contact</a>
+                            <a href="#"><i>&gt;</i> Our Partners</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Get in Touch -->
+                <div class="footer-section">
+                    <h4>Get in Touch</h4>
+                    <p><i class="icon-location">📍</i> A108 Adam Street, New York, NY 535022</p>
+                    <p><i class="icon-email">✉️</i> contact@example.com</p>
+                    <p><i class="icon-phone">📞</i> +1 5589 55488 55</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
